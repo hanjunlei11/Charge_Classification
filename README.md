@@ -7,6 +7,10 @@
 
 给定一篇犯罪事实描述文本，通过模型计算来给出罪名及刑期。
 
+2、模型结构
+
+https://github.com/hanjunlei11/Charge_Classification/blob/master/%E7%BB%93%E6%9E%84%E5%9B%BE1.jpg
+
 3、模型创新点
 
   1、模型中融入司法领域知识图谱，利用先验知识提高模型效果。
