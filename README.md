@@ -9,7 +9,7 @@
 
 2、模型结构
 
-https://github.com/hanjunlei11/Charge_Classification/blob/master/%E7%BB%93%E6%9E%84%E5%9B%BE1.jpg
+![](https://github.com/hanjunlei11/Charge_Classification/blob/master/%E7%BB%93%E6%9E%84%E5%9B%BE1.jpg)
 
 3、模型创新点
 
