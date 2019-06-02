@@ -22,7 +22,7 @@ def getcase(zw):
     if details_bg == "":
         details_bg = details_slcm
     return details_bg
-conn = psycopg2.connect(database='justice', user='beaver', password='123456', host='58.56.137.206', port='5432')
+conn = psycopg2.connect(database='database', user='user', password='123456', host='1.12.123.123', port='1234')#假的
 cur=conn.cursor()
 
 dic2count={}

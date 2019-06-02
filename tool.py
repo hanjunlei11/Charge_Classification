@@ -71,7 +71,6 @@ def get_data(filename,avaage,devage):
     # print(len(test_data))
     return train_data, test_data, zuiming_nunber
 
-
 def get_batch(bachsize,data,zm2index,word2index,truncate_l):
     random_int=np.random.randint(0,len(data),bachsize)
     data=np.asarray(data)
@@ -115,7 +114,6 @@ def get_batch(bachsize,data,zm2index,word2index,truncate_l):
         zm_label.append(zm)
     length = batch_data[:,4]
     return batch_index4ret,batch_inf,batch_c,batch_r,zm_label,length
-
 
 def get_test_data(bachsize,index,data,zm2index,word2index,truncate_l):
     batch_data=data[bachsize*index:bachsize*index+127]

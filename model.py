@@ -17,8 +17,6 @@ class Lstm_model():
             self.add_inf=tf.placeholder(shape=(None, 3),dtype=tf.float32)
             self.all_label_c=tf.placeholder(shape=(None, 21),dtype=tf.int64)
             self.all_label_r = tf.placeholder(shape=(None, 1), dtype=tf.int64)
-            #self.sess=sess
-            # keep_rate=tf.placeholder(tf.float32)
             self.input_length=tf.placeholder(tf.int64,(None))
 
         with tf.name_scope('Lstm'):
